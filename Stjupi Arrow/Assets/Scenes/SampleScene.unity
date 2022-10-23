@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 1321302755}
   - component: {fileID: 1321302754}
   - component: {fileID: 1321302753}
+  - component: {fileID: 1321302757}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -244,12 +245,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321302752}
   m_LocalRotation: {x: -0.7298251, y: 0.016992865, z: 0.0190915, w: 0.683156}
-  m_LocalPosition: {x: 0, y: -0.69, z: -39.99}
+  m_LocalPosition: {x: -0.35, y: -1.79, z: -39.9}
   m_LocalScale: {x: 1.5828592, y: 1, z: 1.4658237}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -93.786, y: 4.0379944, z: -1.1119995}
+--- !u!95 &1321302757
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321302752}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 293a453b9513ff2459a3d233d0c0da43, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1796621934
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +323,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.106267
+  orthographic size: 5.2780285
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -327,11 +347,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796621934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.31, y: 0.11, z: -156.73486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1929224599
 PrefabInstance:
@@ -358,11 +378,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.95
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.68
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalPosition.z

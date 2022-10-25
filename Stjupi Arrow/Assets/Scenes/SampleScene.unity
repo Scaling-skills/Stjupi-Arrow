@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 186947364}
   - component: {fileID: 186947363}
   - component: {fileID: 186947362}
+  - component: {fileID: 186947365}
   m_Layer: 5
   m_Name: Left
   m_TagString: Untagged
@@ -243,6 +244,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186947360}
   m_CullTransparentMesh: 1
+--- !u!114 &186947365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186947360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800c5b69c9eeec64abbc27971b1c92b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Force: 0
 --- !u!1 &206066410
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244301126}
   m_Layer: 0
-  m_Name: Arrow
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -813,7 +828,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_Name
-      value: Arrow
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_Layer

@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour 
 {
-    private void OnTriggerEnter2D(Collider2D collider2d) 
-             
+     private void OnCollisionEnter2D(Collision2D other) 
     {
-        Debug.Log ("Target down");
+        Debug.Log("Hitti");
     }
     
 }

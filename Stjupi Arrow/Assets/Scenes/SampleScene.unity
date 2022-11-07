@@ -388,7 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696f044949b82c845b28bff45f77a7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
 --- !u!50 &240371977
 Rigidbody2D:
   serializedVersion: 4
@@ -1205,11 +1205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022507285739595782, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.31
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 3022507285739595782, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.14
+      value: 7.22
       objectReference: {fileID: 0}
     - target: {fileID: 3022507285739595782, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1242,6 +1242,10 @@ PrefabInstance:
     - target: {fileID: 3022507285739595782, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022507285739595783, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9514355560c371540b7419c9bd72e2a8, type: 3}

@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class Spawner : MonoBehaviour {
+    public GameObject FruitPrefab;
+    public float respawnTime = 1.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    // Use this for initialization
+    void Start () {
+        StartCoroutine(FruitSpawner());
+    }
+    private void spawnEnemy(){
+        GameObject a = Instantiate(FruitPrefab) as GameObject;
+        a.transform.position = new Vector3(Random.Range(-2, 2), 10, -55);
+    }
+    IEnumerator FruitSpawner(){
+        while(true){
+            yield return new WaitForSeconds(respawnTime);
+            spawnEnemy();
+        }
     }
 }

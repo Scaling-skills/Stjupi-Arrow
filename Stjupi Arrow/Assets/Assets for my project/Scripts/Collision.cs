@@ -9,5 +9,4 @@ public class Collision : MonoBehaviour
         Destroy(other.gameObject);
         Score.scoreValue += 1;
     }
-    
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public static float scoreValue = 0;
+    public static int scoreValue = 0;
     Text score;
     
     void Start()
@@ -17,5 +17,11 @@ public class Score : MonoBehaviour
     void Update()
     {
         score.text = "" + scoreValue;
+        if(scoreValue==10)
+        {   
+            transform.position = new Vector2(10,10);
+        }
     }
+
+      
 }

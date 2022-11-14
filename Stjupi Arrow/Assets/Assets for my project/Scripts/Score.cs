@@ -17,11 +17,5 @@ public class Score : MonoBehaviour
     void Update()
     {
         score.text = "" + scoreValue;
-        if(scoreValue==10)
-        {   
-            transform.position = new Vector2(10,10);
-        }
     }
-
-      
 }

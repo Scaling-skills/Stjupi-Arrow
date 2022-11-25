@@ -14,7 +14,7 @@ public class Spawner0 : MonoBehaviour
     private void spawnEnemy()
     {
         GameObject a = Instantiate(FruitPrefab) as GameObject;
-        a.transform.position = new Vector3(Random.Range(-3, 3), 10, -1);
+        a.transform.position = new Vector3(Random.Range(-3, 3), 10, 5);
     }
     IEnumerator FruitSpawner()
     {

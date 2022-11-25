@@ -11,7 +11,6 @@ public class PlayerTeleport : MonoBehaviour
         if (collision.CompareTag("Teleporter"))
         {
             currentTeleporter = collision.gameObject;
-            transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
         }
     }
 
@@ -21,7 +20,7 @@ public class PlayerTeleport : MonoBehaviour
         {
             if (collision.gameObject == currentTeleporter)
             {
-                currentTeleporter = null;
+                transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
             }
         }
     }

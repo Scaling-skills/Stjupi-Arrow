@@ -30,6 +30,6 @@ public class Score : MonoBehaviour
     }
     void UpadateHighScoreText()
     {
-        highScoreText.text = $"HighScore: {PlayerPrefs.GetInt("HighScore", 0)}";
+        highScoreText.text = $"{PlayerPrefs.GetInt("HighScore", 0)}";
     }
 }

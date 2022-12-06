@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Score apple
   - Teleporter
+  - Log
   layers:
   - Default
   - TransparentFX

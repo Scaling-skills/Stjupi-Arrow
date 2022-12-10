@@ -12,12 +12,16 @@ public class Score : MonoBehaviour
     void Start()
     {
         score = GetComponent<Text> ();
+        CheckHighScore();
+        UpadateHighScoreText();
     }
 
     
     void Update()
     {
         score.text = "" + scoreValue;
+        CheckHighScore();
+        UpadateHighScoreText();
     }
     void CheckHighScore()
     {

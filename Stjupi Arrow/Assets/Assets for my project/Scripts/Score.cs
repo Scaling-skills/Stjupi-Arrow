@@ -12,7 +12,6 @@ public class Score : MonoBehaviour
     void Start()
     {
         score = GetComponent<Text> ();
-        CheckHighScore();
     }
 
     

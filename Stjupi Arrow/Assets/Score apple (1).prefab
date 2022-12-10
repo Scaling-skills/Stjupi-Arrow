@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8770787205011490885}
   - component: {fileID: 4357444052223367898}
   m_Layer: 5
-  m_Name: Score
+  m_Name: HighScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
